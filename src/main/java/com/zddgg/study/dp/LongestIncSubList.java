@@ -2,7 +2,10 @@ package com.zddgg.study.dp;
 
 import java.util.Arrays;
 
-public class MaxIncSubList {
+/**
+ * 最长递增子串
+ */
+public class LongestIncSubList {
 
     public static void main(String[] args) {
 
