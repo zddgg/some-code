@@ -2,6 +2,7 @@ package com.zddgg.study;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * lc234. 回文链表
@@ -32,7 +33,7 @@ public class IsPalindrome {
         int start = 0;
         int end = list.size() - 1;
         while (end >= start) {
-            if (list.get(start) != list.get(end)) {
+            if (!Objects.equals(list.get(start), list.get(end))) {
                 return false;
             }
             start++;
